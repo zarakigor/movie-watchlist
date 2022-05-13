@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="index.css" />
+        <title>Movie Watchlist</title>
+    </head>
+    <body>
+        <header>
+            <h1>Find your film</h1>
+            <a href="watchlist.html" class="next-page">My Watchlist</a>
+        </header>
+        <form class="search-bar" onkeydown="return event.key != 'Enter';">
+            <input type="text" class="search-bar-text" spellcheck="false" />
+            <button type="button" class="search-bar-button">Search</button>
+        </form>
+        <main>
+            <div class="movies"></div>
+        </main>
+
+        <script src="index.js"></script>
+    </body>
+</html>
